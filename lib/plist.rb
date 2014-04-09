@@ -16,11 +16,6 @@ require 'stringio'
 require 'plist/generator'
 require 'plist/parser'
 
-if RUBY_VERSION =~ /1.9/
-  Encoding.default_external = Encoding::UTF_8
-  Encoding.default_internal = Encoding::UTF_8
-end
-
 module Plist
   VERSION = '3.1.0'
 end
